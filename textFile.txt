@@ -1,0 +1,43 @@
+HQ 
+312.95 6745
+24. 大會堂公共圖書館
+25. 粉嶺公共圖書館
+26. 牛頭角公共圖書館
+27. 北葵涌公共圖書館
+32. 保安道公共圖書館
+57. 土瓜灣公共圖書館
+58. 將軍澳公共圖書館
+67. 油蔴地公共圖書館
+
+======================================================================================================================================================================
+//BACKKUP
+sudo -u web -s cp -r /s/m/fs8/drupal/hq/drupal/sites/default/themes/hkec_seven/page.tpl.php  /h/hkec/eason/deploy/page.tpl_backup20180228ct64.php
+
+//DEPLOY
+sudo -u web -s cp -r /h/hkec/eason/deploy/edpost.js /s/m/fs8/drupal/hq/drupal/sites/default/js/
+
+//ROLL BACK
+sudo -u web -s cp -r /h/hkec/eason/deploy/media_coverage /s/m/fs8/drupal/hq/drupal/sites/default/files/
+
+https://www.hkedcity.net/hq/en/content/archive-page
+https://www.hkedcity.net/hq/zh-hant/content/archive-page
+======================================================================================================================================================================
+D:\svn\Drupal_HQ_Edpost\sites\default\themes\hkecl_minisite_hq_extended\templates\
+ct254 ct64 /s/m/fs8/drupal/hq/drupal/sites/default/themes/hkecl_minisite_hq_extended/templates
+------------------------------------------------------------------------------------------------------------------------
+D:\svn\Drupal_HQ_Edpost\modules
+/s/m/fs8/drupal/hq/drupal/modules
+------------------------------------------------------------------------------------------------------------------------
+D:\svn\Drupal_HQ_Edpost\sites\default\js\
+/s/m/fs8/drupal/hq/drupal/sites/default/js
+------------------------------------------------------------------------------------------------------------------------
+D:\svn\Drupal_HQ_Edpost\sites\default\themes\hkecl_minisite_hq\js
+
+------------------------------------------------------------------------------------------------------------------------
+D:\svn\Drupal_HQ_Edpost\sites\default\themes\hkec_seven
+/s/m/fs8/drupal/hq/drupal/sites/default/themes/hkec_seven
+------------------------------------------------------------------------------------------------------------------------
+D:\svn\Drupal_Headquarter_Edpost\origin\Video\corporate\custom.js
+D:\svn\Drupal_HQ_Edpost\sites\default\themes\hkecl_minisite_hq\js\channel.js
+
+======================================================================================================================================================================
